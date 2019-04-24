@@ -22,12 +22,12 @@ use \Controller\ProductController;
   <div class="navbar navbar-default">
     <a class="navbar-brand" href="index.php">Product Management</a>
   </div>
-  <div align="center">
+  <!-- <div align="center">
     <form action="view/search.php" method="get">
     <input type="text" name="search"  placeholder="Nhập từ khóa" class ="searchbar">
         <input type="submit" class="btn btn-info" id ="searchbutton" xname ="ok" value="Tìm kiếm" data-selected="true" data-label-id="0">
     </form>
-</div>
+</div> -->
 <!-- <div class="container">
   <div class="btn-group">
     <a href="#" class="btn btn-primary" style="left: 407px; top: -80px; transition: none 0s ease 0s; cursor: move;">Apple</a>
