@@ -1,0 +1,33 @@
+body {
+  /* font-family: "Times New Roman", Times, serif; */
+   position: relative; 
+   left: 0px; 
+   top: 0px;
+   transition: none 0s ease 0s; 
+   cursor: move; 
+   left: 0px; 
+   top: 0px;
+}
+.container{
+   position: relative; 
+   left: -13px; 
+   top: 30px;
+}
+.navbar-brand{
+  position: relative; 
+  left: -13px; 
+  top: 0px; 
+  font-size: 30px;
+}
+#searchbutton{
+  position: relative; 
+  left: 348px; 
+  top: 44.75px; 
+  transition: none 0s ease 0s; 
+  cursor: move;
+}
+.searchbar{
+  position: relative; 
+  left: 346px;
+  top: 47px;
+}
