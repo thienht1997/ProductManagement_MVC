@@ -5,28 +5,21 @@
   /* margin-bottom:5px;  */
   width: 100%;
 }
-nav{
-  background-color:#1abc9c;
-}
-/*chỉnh đốn vị trí và loại bỏ đống bullet phía trước các mục trong li*/
-nav ul{
-  margin:0;
-  padding:0;
-  list-style-type:none;
-}
-/*đưa các mục về hàng ngang*/
-nav li{
-  display:inline-block;
-}
-/*trang điểm*/
-nav li a{
-  display:inline-block;
-  text-decoration:none;
-  color:white;
-  padding:14px 16px;
-}
-nav li:hover{
-  background-color:orange;
+#head-link {
+  height: 30px;
+  /* line-height: 30px;
+  padding-left: 10px;
+  padding-right: 10px; */
+  border: 1px solid #CDCDCD;
+  background-color: #F5F5F5;
+  /* margin-bottom:5px;
+  clear: both; */
+  width: 100%;
+  position: relative; 
+  left: -2px; 
+  top: -2px; 
+  transition: none 0s ease 0s; 
+  cursor: move;
 }
 #left {
   width: 221px;
@@ -54,6 +47,7 @@ nav li:hover{
   transition: none 0s ease 0s;
   cursor: move;
   top : -652px;
+  clear: both;
 }
   #right {
   width: 10%;
@@ -74,19 +68,18 @@ nav li:hover{
   top: 0px; 
   font-size: 30px;
 }
-/* #searchbutton{
+#searchbutton{
   position: relative; 
-  left: 747px; 
-  top: 0px; 
+  left: 348px; 
+  top: 44.75px; 
   transition: none 0s ease 0s; 
   cursor: move;
 }
 .searchbar{
-  left: 748px; 
-  top: 2px; 
-  transition: none 0s ease 0s; 
-  cursor: move;
-} */
+  position: relative; 
+  left: 346px;
+  top: 47px;
+}
 #head {
   height: 100px;
   background-color: #F5F5F5;
@@ -94,17 +87,14 @@ nav li:hover{
   margin-bottom:5px;
   }
 #footer {
+  clear: both;
   height: 50px;
   clear: both;
   border: 1px solid #CDCDCD;
   background-color: #F8F8FF;
   position: relative; 
   left: -8px; 
-  top: -652px; 
+  top: -653px; 
   transition: none 0s ease 0s; 
   cursor: move;
-  background-color:black;
-  padding:0.8em;
-  color:white;
-  text-align:center;
   }

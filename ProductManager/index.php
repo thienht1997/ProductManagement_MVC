@@ -6,7 +6,7 @@ require "controller/ProductController.php";
 
 use \Controller\ProductController;
 ?>
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -18,26 +18,26 @@ use \Controller\ProductController;
   <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-<div class="container">
-  <div class="navbar navbar-default">
+  <div id="head">
+    <div class="navbar navbar-default">
     <a class="navbar-brand" href="index.php">Product Management</a>
+    </div>
   </div>
-  <!-- <div align="center">
-    <form action="view/search.php" method="get">
-    <input type="text" name="search"  placeholder="Nhập từ khóa" class ="searchbar">
-        <input type="submit" class="btn btn-info" id ="searchbutton" xname ="ok" value="Tìm kiếm" data-selected="true" data-label-id="0">
-    </form>
-</div> -->
-<!-- <div class="container">
-  <div class="btn-group">
-    <a href="#" class="btn btn-primary" style="left: 407px; top: -80px; transition: none 0s ease 0s; cursor: move;">Apple</a>
-    <a href="#" class="btn btn-primary" style="left: 407px; top: -80px; transition: none 0s ease 0s; cursor: move;">Samsung</a>
-    <a href="#" class="btn btn-primary" style="left: 407px; top: -80px; transition: none 0s ease 0s; cursor: move;">Sony</a>
-    <a href="#" class="btn btn-primary" style="left: 407px; top: -80px; transition: none 0s ease 0s; cursor: move;">Apple</a>
-    <a href="#" class="btn btn-primary" style="left: 407px; top: -80px; transition: none 0s ease 0s; cursor: move;">Samsung</a>
-    <a href="#" class="btn btn-primary" style="left: 407px; top: -80px; transition: none 0s ease 0s; cursor: move;">Sony</a>
-  </div>
-</div> -->
+
+  <nav>
+    <ul>
+        <li><a href="index.php">Home</a></li>
+        <li><a href="#link">News</a></li>
+        <li><a href="#link">About</a></li>
+        <li>
+          
+</div>
+</li>  
+    </ul>
+</nav>
+    <div id="left"></div>
+    <div id="right"></div>
+    <div id="content">
   <?php
   $controller = new ProductController();
   $page = isset($_REQUEST['page'])? $_REQUEST['page'] : NULL;
@@ -62,7 +62,26 @@ use \Controller\ProductController;
         break;
   }
   ?>
+    </div>
+    <div id="footer">
+    <p>HyHy &copy; 2018</p>
+    </div>
+  <!-- <div align="center">
+    <form action="view/search.php" method="get">
+    <input type="text" name="search"  placeholder="Nhập từ khóa" class ="searchbar">
+        <input type="submit" class="btn btn-info" id ="searchbutton" xname ="ok" value="Tìm kiếm" data-selected="true" data-label-id="0">
+    </form>
+</div> -->
+<!-- <div class="container">
+  <div class="btn-group">
+    <a href="#" class="btn btn-primary" style="left: 407px; top: -80px; transition: none 0s ease 0s; cursor: move;">Apple</a>
+    <a href="#" class="btn btn-primary" style="left: 407px; top: -80px; transition: none 0s ease 0s; cursor: move;">Samsung</a>
+    <a href="#" class="btn btn-primary" style="left: 407px; top: -80px; transition: none 0s ease 0s; cursor: move;">Sony</a>
+    <a href="#" class="btn btn-primary" style="left: 407px; top: -80px; transition: none 0s ease 0s; cursor: move;">Apple</a>
+    <a href="#" class="btn btn-primary" style="left: 407px; top: -80px; transition: none 0s ease 0s; cursor: move;">Samsung</a>
+    <a href="#" class="btn btn-primary" style="left: 407px; top: -80px; transition: none 0s ease 0s; cursor: move;">Sony</a>
   </div>
+</div> -->
 
 </body>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
