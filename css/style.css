@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream:css/style.css
 #head{
   height: 150px;
   background-color: #F5F5F5;
@@ -114,3 +115,118 @@ nav li:hover{
   height: auto;
 }
  
+=======
+#head{
+  height: 150px;
+  background-color: #F5F5F5;
+  border: 1px solid #CDCDCD;
+  /* margin-bottom:5px;  */
+  width: 100%;
+}
+nav{
+  background-color:#1abc9c;
+}
+/*chỉnh đốn vị trí và loại bỏ đống bullet phía trước các mục trong li*/
+nav ul{
+  margin:0;
+  padding:0;
+  list-style-type:none;
+}
+/*đưa các mục về hàng ngang*/
+nav li{
+  display:inline-block;
+}
+/*trang điểm*/
+nav li a{
+  display:inline-block;
+  text-decoration:none;
+  color:white;
+  padding:14px 16px;
+}
+nav li:hover{
+  background-color:orange;
+}
+#left {
+  width: 221px;
+  height: 650px;
+  border: 1px solid #CDCDCD;
+  float:left;
+  background-color: #F5F5F5;
+  margin-bottom: 5px;
+  position: relative; 
+  left: -100px; 
+  top: 3px; 
+  transition: none 0s ease 0s; 
+  cursor: move;
+}
+  #content {
+  width: 80%;
+  height: 650px;
+  border: 1px solid #CDCDCD;
+  float:left;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  position: relative; 
+  left: 119px;
+  transition: none 0s ease 0s;
+  cursor: move;
+  top : -652px;
+}
+  #right {
+  width: 10%;
+  height: 650px;
+  border: 1px solid #CDCDCD;
+  float:right;
+  margin-bottom: 5px;
+  position: relative; 
+  left: -6px; 
+  top: 1px; 
+  transition: none 0s ease 0s; 
+  cursor: move;
+  background-color: #F5F5F5;
+}
+.navbar-brand{
+  position: relative; 
+  left: -13px; 
+  top: 0px; 
+  font-size: 30px;
+}
+/* #searchbutton{
+  position: relative; 
+  left: 747px; 
+  top: 0px; 
+  transition: none 0s ease 0s; 
+  cursor: move;
+}
+.searchbar{
+  left: 748px; 
+  top: 2px; 
+  transition: none 0s ease 0s; 
+  cursor: move;
+} */
+#head {
+  height: 100px;
+  background-color: #F5F5F5;
+  border: 1px solid #CDCDCD;
+  margin-bottom:5px;
+  }
+#footer {
+  height: 50px;
+  clear: both;
+  border: 1px solid #CDCDCD;
+  background-color: #F8F8FF;
+  position: relative; 
+  left: -8px; 
+  top: -652px; 
+  transition: none 0s ease 0s; 
+  cursor: move;
+  background-color:black;
+  padding:0.8em;
+  color:white;
+  text-align:center;
+  }
+ #container{
+  height:100%;
+ } 
+>>>>>>> Stashed changes:ProductManager/css/style.css
