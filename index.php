@@ -70,7 +70,7 @@ use \Controller\ProductController;
 
     <!-- Footer -->
     <div id="footer">
-      <p>HyHy &copy; 2018</p>
+      <p>C0219H1@Codegym.com</p>
     </div>
 
   </div>
