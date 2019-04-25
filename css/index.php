@@ -7,7 +7,7 @@ require "controller/ProductController.php";
 use \Controller\ProductController;
 ?>
 <!DOCTYPE html>
-<html style=" height: 300px">
+<html style= " height: 300px">
 
 <head>
   <meta charset="UTF-8">
@@ -24,27 +24,6 @@ use \Controller\ProductController;
     <div id="head">
       <div class="navbar navbar-default">
         <a class="navbar-brand" href="index.php">Product Management</a>
-        <?php session_start(); ?>
-<!DOCTYPE html>
-<html>
-    <head>
-        <title></title>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    </head>
-    <body>
-       <?php 
-       if (isset($_SESSION['username']) && $_SESSION['username']){
-           $name=$_SESSION['username'];
-           echo '<h7 contenteditable="true" style="position: relative; left: 592px; top: 26px;" spellcheck="true" data-selected="true" data-label-id="0"> Bạn đã đăng nhập với tên là </h7>';
-           echo "<h7 style='position: relative; left: 439px; top: 26px; transition: none 0s ease 0s; cursor: move;' data-selected='true' data-label-id='0'>$name</h7>";
-           echo '<h7 style="position: relative; left: 85px; top: 50px; transition: none 0s ease 0s; cursor: move;" data-selected="true" data-label-id="0">Click vào đây để </h7> <a href="view/login/logout.php" style="position: relative; left: -61px; top: 49px; transition: none 0s ease 0s; cursor: move;" data-selected="true" data-label-id="0">Logout</a>';
-       }
-       else{
-           echo '<h7 data-selected="true" data-label-id="0" style="position: relative; left: -68px; top: 44px; transition: none 0s ease 0s; cursor: move;">Bạn chưa đăng nhập</h7>';
-       }
-       ?>
-    </body>
-</html>
       </div>
     </div>
 
@@ -54,8 +33,7 @@ use \Controller\ProductController;
         <li><a href="index.php">Home</a></li>
         <li><a href="#link">News</a></li>
         <li><a href="#link">About</a></li>
-        <li style="position: relative; left: 911px; top: 0px;"><a href="view/login/dangnhap.php" data-selected="true" data-label-id="0" style="position: relative; left: -1px; top: 0px;">Log in</a></li>
-        <li style="position: relative; left: 899px; top: -1px;"><a href="view/login/dangky.php" style="position: relative; left: 2px; top: 1px;">Sign up</a></li>
+
     </nav>
 
     <!-- Content -->
