@@ -59,7 +59,7 @@ nav li:hover{
   width: 10%;
   height: 650px;
   border: 1px solid #CDCDCD;
-  float:right;
+  float:left;
   margin-bottom: 5px;
   position: relative; 
   left: -6px; 
@@ -108,3 +108,9 @@ nav li:hover{
   color:white;
   text-align:center;
   }
+
+ #container{
+  width: auto;
+  height: auto;
+}
+ 

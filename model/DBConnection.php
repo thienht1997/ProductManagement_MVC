@@ -1,5 +1,6 @@
 <?php
 namespace Model;
+
 use PDO;
 
 class DBConnection
@@ -10,12 +11,14 @@ class DBConnection
 
   public function __construct($dsn, $user, $password)
   {
-      $this->dsn = $dsn;
-      $this->password = $password;
-      $this->user = $user;
+    $this->dsn = $dsn;
+    $this->password = $password;
+    $this->user = $user;
   }
 
-  public function connect(){
-      return new PDO($this->dsn, $this->user, $this->password);
+  public function connect()
+  {
+    return new PDO($this->dsn, $this->user, $this->password);
   }
 }
+

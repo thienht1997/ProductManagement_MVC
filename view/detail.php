@@ -1,7 +1,7 @@
 <h2 style="font-size: 25px;">Chi tiết sản phẩm</h2><br>
 <table class="table">
   <thead>
-  <tr>
+    <tr>
       <th>ID</th>
       <th style="position: relative; left: 33px; top: 2px;">Name</th>
       <th>Price</th>
@@ -9,10 +9,10 @@
       <th>Supplier</th>
       <th></th>
       <th></th>
-  </tr>
+    </tr>
   </thead>
   <tbody>
-  <tr>
+    <tr>
       <td><?php echo $product->id ?></td>
       <td style="position: relative; left: 33px; top: -1px; transition: none 0s ease 0s; cursor: move;" data-selected="true" data-label-id="0"><?php echo $product->name ?></td>
       <td><?php echo $product->price ?></td>
