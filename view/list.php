@@ -1,4 +1,4 @@
-<h2 style="font-size: 25px; position: relative; left: 1px; top: -5px; transition: none 0s ease 0s; cursor: move;" data-selected="true" data-label-id="0">Danh sách sản phẩm</h2>
+<h2 style="font-size: 25px;">Danh sách sản phẩm</h2>
 <a href="./index.php?page=add">Thêm mới</a>
 <table class="table">
   <thead>
