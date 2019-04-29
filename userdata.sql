@@ -6,6 +6,6 @@ CREATE TABLE `member` (
   `password` varchar(255),
   `email` varchar(255),
   `fullname` varchar(255),
-  `birthday` varchar(10)
+  `birthday` varchar(10),
   `sex` varchar(3)
 ) 
