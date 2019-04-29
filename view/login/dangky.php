@@ -10,7 +10,7 @@
 <body>
     <center style="position: relative; left: -14px; top: 177px;">
         <div class="w3-container w3-blue" style="width:619px">
-            <h1>Sign in</h1>
+            <h1>Sign up</h1>
         </div>
         <div>
             <form class="w3-container" action="xuly.php" method="POST">
@@ -68,7 +68,7 @@
                         </td>
                     </tr>
                 </table>
-                <input type="submit" class="w3-input" value="Sign in" style="width:109px"/>
+                <input type="submit" class="w3-input" value="Sign up" style="width:109px"/>
             </form>
     </center>
 </body>

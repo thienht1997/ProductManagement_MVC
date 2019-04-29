@@ -6,7 +6,7 @@
 
         // Nếu $search rỗng thì báo lỗi, tức là người dùng chưa nhập liệu mà đã nhấn submit.
         if (empty($search)) {
-            echo "Yeu cau nhap du lieu vao o trong";
+            echo "Yêu cầu nhập dữ liệu vào ô trống.";
         } else {
             // Dùng câu lênh like trong sql và sứ dụng toán tử % của php để tìm kiếm dữ liệu chính xác hơn.
             // Kết nối sql
@@ -34,9 +34,10 @@
             $num = mysqli_num_rows(mysqli_query($con, "SELECT * FROM products WHERE name LIKE '%$search%'"));
 
             // Nếu có kết quả thì hiển thị, ngược lại thì thông báo không tìm thấy kết quả
-            if ($num > 0 && $search != "") {
+        ?>
+        <?php if ($num > 0 && $search != "") {
                 // Dùng $num để đếm số dòng trả về.
-                echo "$num kết quả trả về với từ khóa <b>$search</b>";
+                echo "$num kết quả trả về với từ khóa <b>$search</b>"; 
 
                 // Vòng lặp while & mysql_fetch_assoc dùng để lấy toàn bộ dữ liệu có trong table và trả về dữ liệu ở dạng array.
                 echo '<table border="1" cellspacing="0" cellpadding="10">';
@@ -58,7 +59,7 @@
                 }
                 echo '</table>';
             } else {
-                echo "Khong tim thay ket qua!";
+                echo "Không tìm thấy kết quả!";
             }
         }
     }

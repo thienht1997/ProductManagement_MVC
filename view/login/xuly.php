@@ -49,7 +49,7 @@
         exit;
     }
     //Kiểm tra dạng nhập vào của ngày sinh
-    if (!preg_match("/^([0-2][0-9]|(3)[0-1])(\/)(((0)[0-9])|((1)[0-2]))(\/)\d{4}$/", $birthday, $matches))
+    if (!preg_match("/^[0-3]?[0-9].[0-3]?[0-9].(?:[0-9]{2})?[0-9]{4}$/", $birthday, $matches))
     {
             echo "Ngày tháng năm sinh không hợp lệ. Vui long nhập lại. <a href='javascript: history.go(-1)'>Trở lại</a>";
             exit;

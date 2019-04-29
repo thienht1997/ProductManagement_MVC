@@ -66,12 +66,6 @@ use \Controller\ProductController;
 
     <!-- Main content   -->
     <div id="content">
-      <div align="center">
-        <form class="example" action="view/search.php" method="get">
-          <input type="text" placeholder="Search.." name="search" style="position: relative; left: 436px; top: 30px; transition: none 0s ease 0s; cursor: move;" data-selected="true" data-label-id="0">
-          <input class="btn btn-secondary" type="submit" name="ok" style="position: relative; left: 433px; top: 28px;">
-        </form>
-      </div>
       <?php
       $controller = new ProductController();
       $page = isset($_REQUEST['page']) ? $_REQUEST['page'] : NULL;
@@ -100,7 +94,7 @@ use \Controller\ProductController;
 
     <!-- Footer -->
     <div id="footer">
-      <p>C0219H1@Codegym.com</p>
+      <p>C0219H1 @Codegym.com</p>
     </div>
 
   </div>
